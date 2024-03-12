@@ -2,7 +2,7 @@ import Navbar from './layouts/Navbar'
 
 const AppLayout = ({ children }) => {
   return (
-    <div>
+    <div className='bg-neutral-veryLightGray dark:bg-neutral-veryDarkBlue'>
         <Navbar />
         <div>{ children }</div>
     </div>

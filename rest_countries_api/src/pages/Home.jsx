@@ -3,7 +3,9 @@ import AppLayout from "../components/AppLayout"
 const Home = () => {
   return (
     <AppLayout>
-        Home
+      <div className="h-full">
+        home
+      </div>
     </AppLayout>
   )
 }
