@@ -3,11 +3,11 @@ import React from 'react'
 const Card = ({ country }) => {
     return (
         <div className="max-w-sm rounded-lg shadow bg-[white] dark:bg-neutral-darkBlue text-neutral-veryDarkBlueLight dark:text-neutral-veryLightGray mb-20">
-            <a href="#">
+            <a href={`/${country.alpha2Code}`}>
                 <img className="rounded-t-lg h-[250px] w-full object-cover" src={country.flag} alt="" />
             </a>
             <div className="p-5">
-                <a href="#">
+                <a href={`/${country.alpha2Code}`}>
                     <p className='text-2xl font-[700]'>{country.name}</p>
                 </a>
                 <div className='pt-5'>
