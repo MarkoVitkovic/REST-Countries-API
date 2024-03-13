@@ -1,4 +1,4 @@
-import Navbar from './layouts/Navbar'
+import Navbar from './Navbar'
 
 const AppLayout = ({ children }) => {
   return (

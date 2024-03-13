@@ -11,6 +11,7 @@ function App() {
     <div className={`${currentMode === 'Dark' ? 'dark' : ''}`}>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/:slug' element={<Details />} />
       </Routes>
     </div>
   )
