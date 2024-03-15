@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({ country }) => {
     return (
-        <div className="max-w-sm rounded-lg shadow bg-[white] dark:bg-neutral-darkBlue text-neutral-veryDarkBlueLight dark:text-neutral-veryLightGray mb-20">
+        <div className="max-w-sm rounded-lg shadow bg-[white] dark:bg-neutral-darkBlue text-neutral-veryDarkBlueLight dark:text-neutral-veryLightGray mb-20 min-w-[385px]">
             <a href={`/${country.alpha2Code}`}>
                 <img className="rounded-t-lg h-[250px] w-full object-cover" src={country.flag} alt="" />
             </a>

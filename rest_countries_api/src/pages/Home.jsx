@@ -5,7 +5,7 @@ import data from '../assets/data.json'
 const Home = () => {
   return (
     <AppLayout>
-      <div className="h-full flex justify-between items-center flex-wrap p-20">
+      <div className="flex justify-between items-center flex-wrap p-20">
         {
           data.map(country => <Card country={country} />)
         }
